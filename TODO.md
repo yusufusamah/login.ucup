@@ -1,0 +1,3 @@
+- [x] Pindahkan bagian marquee ke paling atas dalam HTML
+- [ ] Update CSS untuk layout: hapus flex dari body, pusatkan form
+- [ ] Ubah styling marquee: warna hitam dengan bayangan putih
