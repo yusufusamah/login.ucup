@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    min-height: 100vh;
+    color: white;
+}
+
+#welcome-marquee {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,123,255,0.7);
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: black url('usup.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,123,255,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #333;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+nav {
+    background: #004080;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0,123,255,0.6);
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px;
+    margin: 20px 0;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0,123,255,0.3);
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #333;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,123,255,0.2);
+    color: white;
+}
+
+.main-title {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0,123,255,0.5);
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    color: #ecf0f1;
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.portfolio-main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: black;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,123,255,0.4);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,123,255,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,123,255,0.6);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,123,255,0.7);
+    border: 3px solid #007bff;
+}
+
+.about-text p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+.team-list, .education-list, .projects-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.team-list li, .education-list li, .projects-list li {
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,123,255,0.3);
+    font-weight: 600;
+    cursor: default;
+    transition: background-color 0.3s ease;
+}
+
+.team-list li:hover, .education-list li:hover, .projects-list li:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.project-item {
+    font-size: 1.1rem;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.contact-section a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+    color: #ffcc00;
+}
